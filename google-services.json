@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "897672357022",
+    "project_id": "taller1-bea7d",
+    "storage_bucket": "taller1-bea7d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897672357022:android:43a970c34b71eea23d478f",
+        "android_client_info": {
+          "package_name": "com.example.travelweather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMcGmVgibI5C-4xJx5TGx8tdZBzQ7SQ5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
