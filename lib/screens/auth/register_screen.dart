@@ -54,8 +54,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
           _errorMessage = 'Este email ya está registrado';
         } else if (e.code == 'invalid-email') {
           _errorMessage = 'Email inválido';
+        } else if (e.code == 'weak-password') {
+          _errorMessage = 'La contraseña es muy débil';
         } else {
-          _errorMessage = 'Error al crear la cuenta';
+          _errorMessage = 'Error: ${e.code} - ${e.message}';
         }
       });
     } finally {
